@@ -7,7 +7,7 @@ I adapted this function so that it could be used in AWS Lambda scripts to avoid 
 
 ### Usage
 
-This funciton takes compressed data as any type which can be converted to a bytearray (generally a string), and returns a UTF-8 decoded string containing the decompressed data.
+This function takes compressed data as any type which can be converted to a bytearray (generally a string), and returns a UTF-8 decoded string containing the decompressed data.
 
 ```
 f = open('file.Z', 'r')
