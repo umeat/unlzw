@@ -178,4 +178,4 @@ def unlzw(data):
         put += stack[::-1]
 
     # Return the decompressed data as string
-    return bytearray(put).decode("utf-8")
+    return bytes(bytearray(put))
