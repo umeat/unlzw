@@ -1,0 +1,14 @@
+Source: python-unlzw
+Section: python
+Priority: optional
+Maintainer: Tom Kralidis <tomkralidis@gmail.com>
+Build-Depends: debhelper (>= 9), python, python-setuptools
+Standards-Version: 3.9.5
+X-Python-Version: >= 2.7
+Vcs-Git: https://github.com/umeat/unlzw.git
+
+Package: python-unlzw
+Architecture: all
+Homepage: https://github.com/umeat/unlzw
+Description: Python decompression module for .Z files compressed using
+ Unix compress utility

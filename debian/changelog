@@ -1,0 +1,5 @@
+python-unlzw (0.1.0) trusty; urgency=medium
+
+  * initial Debian packaging
+
+ -- Tom Kralidis <tomkralidis@gmail.com>  Tue, 15 May 2018 00:03:24 +0000
